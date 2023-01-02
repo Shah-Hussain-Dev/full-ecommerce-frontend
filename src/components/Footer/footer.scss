@@ -1,0 +1,35 @@
+footer {
+    background: var(--gray-color);
+
+    &:not(:first-child) {
+        border-top: 1px solid rgba(255, 255, 255, .1);
+    }
+
+    .input-subscribe {
+        height: 40px;
+        padding: 4px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        box-shadow: none;
+
+        .subscribe-btn {
+            height: 32px;
+            font-size: 12px;
+            text-transform: uppercase;
+            background-color: var(--gray-color);
+            ;
+
+        }
+
+        input {
+            border: none;
+
+            &:focus {
+                border: 0;
+            }
+
+        }
+
+    }
+}

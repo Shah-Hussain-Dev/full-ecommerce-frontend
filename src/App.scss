@@ -1,0 +1,17 @@
+:root {
+    --dark-color: #131921;
+    --second-color: #3b4149;
+    --third-color: #febd69;
+    --gray-color: #232f3e;
+}
+
+.yellow-color {
+    color: var(--third-color);
+}
+
+.form-control {
+    &:focus {
+        box-shadow: none;
+        border-color: inherit;
+    }
+}
